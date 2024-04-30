@@ -55,7 +55,22 @@ sudo apt install docker.io git maven -y
 docker --version
 docker ps
 
-# after installed all applications copy public ID and paste new web page and java port 8080 after jenkins key open copy that key and paste into the server like "sudo cat paste key here and enter after display the password copy that password and paste it into the jenkis page after jenkins engine are started. 
+# after installed all applications copy public ID and paste new web page and java port 8080 after jenkins key open copy that key and paste into the server like "sudo cat paste key here and enter after display the password copy that password and paste it into the jenkis page after jenkins engine are started.
+
+
+
+--------------------------------------------------
+# Ansible installed commands
+
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository --yes --update ppa:ansible/ansible
+sudo apt install ansible
+
+
+
+
+---------------------------------------------------------
 to give jenkins access of docker
 ---------------------------------
 # command to show groups present
